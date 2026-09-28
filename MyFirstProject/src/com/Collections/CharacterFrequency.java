@@ -10,7 +10,7 @@ public class CharacterFrequency {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter a string: ");
-		String str = sc.next();
+		String str = sc.nextLine();
 
 		Map<Character, Integer> map = new HashMap<>();
 
