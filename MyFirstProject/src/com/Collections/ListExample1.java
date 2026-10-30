@@ -2,6 +2,7 @@ package com.Collections;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ListExample1 {
 
@@ -22,6 +23,19 @@ public class ListExample1 {
 		l1.add(null);
 		
 		System.out.println(l1);
+		
+		ListIterator<Integer> ltr = l1.listIterator();
+		
+		while(ltr.hasNext()){
+			System.out.println(ltr.next());
+		}
+		
+		System.out.println("***********");
+		
+		while(ltr.hasPrevious()) {
+			System.out.println(ltr.previous());
+		}
+		
 	}
 
 }

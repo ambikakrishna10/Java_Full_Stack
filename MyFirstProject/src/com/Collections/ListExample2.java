@@ -15,6 +15,7 @@ public class ListExample2 {
 		
 		l1.add(3, 300);
 		l1.add(4, 400);
+		l1.add(600);
 		
 		System.out.println(l1);
 	}
